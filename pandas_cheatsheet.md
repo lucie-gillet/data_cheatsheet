@@ -3,7 +3,6 @@
 
 ---
 
-<hr>
 <h1 id="read-files">Read files</h1>
 <h4 id="get-rid-of-unnamed-column-when-reading-dataset">Get rid of ‘Unnamed’ column when reading dataset</h4>
 <p>Include <code>index_col=0</code> in the read_csv function:<br>
