@@ -66,3 +66,6 @@ To remove the kernel:<br>
 <code>jupyter kernelspec uninstall name-kernel</code> (replace name-kernel)<br>
 From a Jupyter notebook, click on New and choose the environment.</p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk3MDg4MTEyN119
+-->
