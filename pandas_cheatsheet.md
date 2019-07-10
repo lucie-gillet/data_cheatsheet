@@ -70,5 +70,5 @@ To remove the kernel:<br>
 From a Jupyter notebook, click on New and choose the environment.</p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzEyNTI3OCwtMTE1MzcxOTgxMl19
+eyJoaXN0b3J5IjpbLTkxMzEyNTI3OF19
 -->
