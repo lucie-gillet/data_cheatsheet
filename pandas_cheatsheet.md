@@ -30,11 +30,9 @@ Total number of missing data in the dataset: <code>df.isna().sum().sum()</code><
 <code>df.applymap(func)</code><br>
 It will add 2 to each element of dataframe (all columns of dataframe must be numeric type)</p>
 <h1 id="plots">Plots</h1>
-<h4 id="print">Format print
-|fe|  |
-|--|--|
-|  |  |
-s</h4>
+<h4 id="print">Format prints</h4>
+<p></p>
+
 
 
 <h4 id="visualize-plots-in-jupyter-notebook">Visualize plots in Jupyter Notebook</h4>
@@ -72,5 +70,5 @@ To remove the kernel:<br>
 From a Jupyter notebook, click on New and choose the environment.</p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTkxNzEzMl19
+eyJoaXN0b3J5IjpbLTExNTM3MTk4MTJdfQ==
 -->
