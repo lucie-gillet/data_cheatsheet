@@ -1,8 +1,6 @@
 ---
 
 
----
-
 <h1 id="read-files">Read files</h1>
 <h4 id="get-rid-of-unnamed-column-when-reading-dataset">Get rid of ‘Unnamed’ column when reading dataset</h4>
 <p>Include <code>index_col=0</code> in the read_csv function:<br>
@@ -67,5 +65,5 @@ To remove the kernel:<br>
 From a Jupyter notebook, click on New and choose the environment.</p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDg4MTEyN119
+eyJoaXN0b3J5IjpbLTE1ODU2ODM1MDJdfQ==
 -->
