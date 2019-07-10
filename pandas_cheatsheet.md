@@ -33,7 +33,7 @@ Total number of missing data in the dataset: <code>df.isna().sum().sum()</code><
 It will add 2 to each element of dataframe (all columns of dataframe must be numeric type)</p>
 
 
-<br><p>Summing up, apply works on a row / column basis of a DataFrame, applymap works element-wise on a DataFrame, and map works element-wise on a Series.</p>
+<br><p>Summing up, **apply** works on a row / column basis of a DataFrame, **applymap** works element-wise on a DataFrame, and **map** works element-wise on a Series.</p>
 
 <h1 id="plots">Plots</h1>
 <h4 id="print">Format prints</h4>
