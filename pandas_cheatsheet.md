@@ -31,7 +31,7 @@ Total number of missing data in the dataset: <code>df.isna().sum().sum()</code><
 It will add 2 to each element of dataframe (all columns of dataframe must be numeric type)</p>
 <h1 id="plots">Plots</h1>
 <h4 id="print">Format prints</h4>
-<p></p>
+<p>https://mkaz.blog/code/python-string-format-cookbook/</p>
 
 
 
@@ -70,5 +70,5 @@ To remove the kernel:<br>
 From a Jupyter notebook, click on New and choose the environment.</p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM3MTk4MTJdfQ==
+eyJoaXN0b3J5IjpbLTkxMzEyNTI3OCwtMTE1MzcxOTgxMl19
 -->
