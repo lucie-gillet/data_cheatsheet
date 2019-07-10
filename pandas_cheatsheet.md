@@ -1,6 +1,9 @@
 ---
 
 
+---
+
+<hr>
 <h1 id="read-files">Read files</h1>
 <h4 id="get-rid-of-unnamed-column-when-reading-dataset">Get rid of ‘Unnamed’ column when reading dataset</h4>
 <p>Include <code>index_col=0</code> in the read_csv function:<br>
@@ -32,14 +35,11 @@ It will add 2 to each element of dataframe (all columns of dataframe must be num
 <h1 id="plots">Plots</h1>
 <h4 id="print">Format prints</h4>
 <p>https://mkaz.blog/code/python-string-format-cookbook/</p>
-
-
-
 <h4 id="visualize-plots-in-jupyter-notebook">Visualize plots in Jupyter Notebook</h4>
 <p><code>%matplotlib inline</code></p>
 <h4 id="basic-plot-in-matplotlib">Basic plot in matplotlib</h4>
 <p>We create the objects fig and axes by calling plt.subplots. We could also create a figure object with plt.figure and then add axes to it.<br>
-The figure size help specifying the proportion of the figure. Dpi allows to change the size without changing modifying the proportions. The final size of the figure will be (figsize[0] <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.66666em; vertical-align: -0.08333em;"></span><span class="mord">×</span></span></span></span></span> dpi, figsize[1] <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.66666em; vertical-align: -0.08333em;"></span><span class="mord">×</span></span></span></span></span> dpi).</p>
+The figure size help specifying the proportion of the figure. Dpi allows to change the size without changing modifying the proportions. The final size of the figure will be (figsize[0] <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo><mo>×</mo><mo>×</mo></mrow><annotation encoding="application/x-tex">×\times×</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.66666em; vertical-align: -0.08333em;"></span><span class="mord">×</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.66666em; vertical-align: -0.08333em;"></span><span class="mord">×</span></span></span></span></span> dpi, figsize[1] <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo><mo>×</mo><mo>×</mo></mrow><annotation encoding="application/x-tex">×\times×</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.66666em; vertical-align: -0.08333em;"></span><span class="mord">×</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.66666em; vertical-align: -0.08333em;"></span><span class="mord">×</span></span></span></span></span> dpi).</p>
 <p><code>fig, axes = plt.subplots(figsize=(12,3),dpi = 80)</code></p>
 <p><code>axes.plot(x, y, 'r')</code><br>
 <code>axes.set_xlabel('x')</code><br>
@@ -69,6 +69,3 @@ To remove the kernel:<br>
 <code>jupyter kernelspec uninstall name-kernel</code> (replace name-kernel)<br>
 From a Jupyter notebook, click on New and choose the environment.</p>
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzEyNTI3OF19
--->
